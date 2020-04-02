@@ -18,7 +18,7 @@
     <bean id="user" class="org.learn.ioc.dependency.domain.User">
         <property name="id" value="1"/>
         <property name="name" value="小马哥"/>
-<!--        <property name="city" value="HANGZHOU"/>
+        <property name="city" value="HANGZHOU"/>
         <property name="workCities" value="BEIJING,HANGZHOU"/>
         <property name="lifeCities">
             <list>
@@ -26,8 +26,8 @@
                 <value>SHANGHAI</value>
             </list>
         </property>
-        <property name="configFileLocation" value="classpath:/META-INF/user-config.properties"/>-->
-    </bean>
+        <property name="configFileLocation" value="classpath:/META-INF/user-config.properties"/>
+     </bean>
 
     <!-- 普通 beanDefinition GenericBeanDefinition -->
     <!-- 合并后 GenericBeanDefinition 变成 RootBeanDefinition，并且覆盖 parent 相关配置-->
